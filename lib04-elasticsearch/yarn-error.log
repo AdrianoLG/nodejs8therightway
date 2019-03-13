@@ -1,0 +1,42 @@
+Arguments: 
+  D:\Programas\Nodejs\node.exe C:\Users\orzan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js link
+
+PATH: 
+  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseHg\;C:\Program Files\Mercurial\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Calibre2\;D:\Programas\Git\cmd;D:\xampp\php;D:\Programas\Vagrant\bin;D:\Programas\Nodejs\;;C:\Users\orzan\AppData\Roaming\Composer;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;A:\Programas\VS Code\bin;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files\PuTTY\;C:\Users\orzan\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\orzan\AppData\Local\Programs\Python\Python36-32\;C:\Users\orzan\AppData\Local\Microsoft\WindowsApps;C:\MongoDB\bin;C:\Program Files\Java\jdk1.8.0_111;C:\Users\orzan\AppData\Local\atom\bin;C:\Users\orzan\AppData\Roaming\Composer\vendor\bin;C:\Users\orzan\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseHg\;C:\Program Files\Mercurial\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Calibre2\;D:\Programas\Git\cmd;D:\xampp\php;D:\Programas\Vagrant\bin;D:\Programas\Nodejs\;;C:\Users\orzan\AppData\Roaming\Composer;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;A:\Programas\VS Code\bin;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files\PuTTY\;D:\xampp\php;A:\Programas\VS Code\bin;C:\Users\orzan\AppData\Roaming\npm;
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, stat 'C:\Users\orzan\AppData\Local\Yarn\Data\link\esclu\esclu'
+
+npm manifest: 
+  {
+    "name": "esclu",
+    "version": "1.0.0",
+    "description": "Elasticsearch Command Line Utilities",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "commander": "^2.19.0",
+      "request": "^2.88.0"
+    },
+    "preferGlobal": true,
+    "bin": "./esclu"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,9 @@
+{
+	"serviceUrl": "http://dev.b4.com:60900",
+	"es": {
+		"host": "localhost",
+		"port": 9200,
+		"books_index": "books",
+		"bundles_index": "b4"
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "05-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nconf": "^0.10.0"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.10",
+    "npm": "^6.8.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
